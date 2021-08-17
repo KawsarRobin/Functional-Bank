@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind Link  -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Functional Bank</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-8 font-semibold mb-4">
+        Welcome to <span class="text-purple-800"> Functional bank!!!</span>
+      </h1>
+    </header>
+    <div class="bg-green-100 w-3/4 mx-auto p-8">
+      <h1 class="mb-3 text-2xl font-medium">Please login</h1>
+      <input
+        id="email-field"
+        class="w-3/4 mb-2 px-4 border-2 border-gray-400 rounded block"
+        type="text"
+        placeholder="Your email"
+      />
+      <input
+        class="w-3/4 mb-2 px-4 border-2 border-gray-400 rounded block"
+        type="password"
+        name=""
+        id="password-field"
+        placeholder="Your Password"
+      />
+      <button
+        id="submit-btn"
+        class="font-medium text-white bg-yellow-600 px-6 py-2 rounded"
+      >
+        Submit
+      </button>
+    </div>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>
